@@ -34,7 +34,7 @@ npm install jquery
 - crispy-forms | 
 - TEMPLATE TAGS 
 
-## Python's syntax is pretty straightforward.You can create beautiful projects by using your algorithm.I wanted to make an enjoyable project using the django orm structure.
+###### Python's syntax is pretty straightforward.You can create beautiful projects by using your algorithm.I wanted to make an enjoyable project using the django orm structure.
 
 # LOGİN
 
