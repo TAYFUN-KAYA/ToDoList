@@ -26,13 +26,13 @@ npm install jquery
 
 #Used technology and frameworks:
 
-> Python | 
-> Django ORM | 
-> jquery | 
-> SQLİTE | 
-> BOOTSTRAP | 
-> crispy-forms | 
-> TEMPLATE TAGS 
+- Python | 
+- Django ORM | 
+- jquery | 
+- SQLİTE | 
+- BOOTSTRAP | 
+- crispy-forms | 
+- TEMPLATE TAGS 
 ...
 Python's syntax is pretty straightforward.You can create beautiful projects by using your algorithm.I wanted to make an enjoyable project using the django orm structure.
 
