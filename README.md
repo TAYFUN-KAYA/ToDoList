@@ -29,7 +29,7 @@ Python | Django ORM | jquery | SQLİTE | BOOTSTRAP | crispy-forms | TEMPLATE TAG
 
 Python's syntax is pretty straightforward.You can create beautiful projects by using your algorithm.I wanted to make an enjoyable project using the django orm structure.
 
-#LOGİN
+# LOGİN
 
 ![](https://github.com/TAYFUN-KAYA/ToDoList/blob/main/static/image/photo/example3.png)
 
@@ -37,13 +37,15 @@ OR
 
 ![](https://github.com/TAYFUN-KAYA/ToDoList/blob/main/static/image/photo/example4.png)
 
-#REGİSTER 
+# REGİSTER 
 
 You can immediately create your to-do list afterwards.
 
 ![](https://github.com/TAYFUN-KAYA/ToDoList/blob/main/static/image/photo/example2.png)
 
 working planned saves time 
+
+![](https://github.com/TAYFUN-KAYA/ToDoList/blob/main/static/image/photo/example.png)
 
 I wish you fruitful studies
 
