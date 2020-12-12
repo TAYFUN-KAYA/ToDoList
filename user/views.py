@@ -7,9 +7,12 @@ from django.contrib.auth.models import User
 
 from django.contrib.auth import login, authenticate, logout
 
+from django.contrib.auth.decorators import login_required
+
 from django.contrib import messages
 
 
+@login_required(login_url="user:login")
 def Login(request):
 
     if request.user.is_authenticated == 1:
@@ -32,6 +35,8 @@ def Login(request):
             form = LoginForm()
             return render(request, "login.html", {"form": form})
 
+
+@login_required(login_url="user:login")
 def registerr(request):
     if request.method == "POST":
         form = RegisterrFormm(request.POST)
@@ -52,9 +57,7 @@ def registerr(request):
         return render(request, "register.html", {"form": form})
 
 
-
-
-
+@login_required(login_url="user:login")
 def Logout(request):
     logout(request)
     messages.warning(request, "Çıkış Yapıldı")
