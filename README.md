@@ -58,3 +58,5 @@ I wish you fruitful studies
 
 ![](https://github.com/TAYFUN-KAYA/ToDoList/blob/main/static/image/photo/newpage.png)
 
+thanks Novumare
+
