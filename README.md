@@ -10,7 +10,9 @@
 - You can adjust it sorting to the situation you want
 
 # In short, you can prepare and use your special to-do list.
-
+Django must be installed on your computer.
+if problem occurs
+[you can examine](https://www.djangoproject.com)
 
 django-crispy-forms install:
 ```
