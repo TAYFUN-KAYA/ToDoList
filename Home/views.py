@@ -7,11 +7,12 @@ from .forms import ToDoItemForm
 from .models import ToDoList,Items
 
 from .models import Items,ToDoList
-
+from django.contrib.auth.decorators import login_required
 from .myClass import Counter
 # Create your views here.
 
 
+@login_required(login_url="user:login")
 def Home(request):
     listem=ToDoList.objects.filter(author=request.user)
     flag=True
@@ -49,19 +50,24 @@ def Home(request):
         
         return render(request,"index.html",context)
 
-    
+
+@login_required(login_url="user:login")
 def deleteItem(request,id):
     data=get_object_or_404(Items,id=id)
     data.delete()
     messages.success(request, "Successfully deleted")
     return redirect("index")
 
+
+@login_required(login_url="user:login")
 def deleteList(request,id):
     data=get_object_or_404(ToDoList,id=id)
     data.delete()
     messages.success(request, "Successfully deleted")
     return redirect("index")
 
+
+@login_required(login_url="user:login")
 def updatee(request,id):
     veri=get_object_or_404(Items,id=id)
     veri.durum=True
@@ -69,6 +75,7 @@ def updatee(request,id):
     return redirect("index")
 
 
+@login_required(login_url="user:login")
 def yapadd(request):
     form = ToDoListForm(request.POST or None)
     if form.is_valid():
@@ -81,6 +88,7 @@ def yapadd(request):
     return render(request, "yap-add.html", {"form": form})
 
 
+@login_required(login_url="user:login")
 def yapitem(request):
 
     listem = ToDoList.objects.filter(author=request.user)
