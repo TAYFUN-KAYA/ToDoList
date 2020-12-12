@@ -12,7 +12,7 @@ from .myClass import Counter
 # Create your views here.
 
 
-@login_required(login_url="user:login")
+
 def Home(request):
     listem=ToDoList.objects.filter(author=request.user)
     flag=True
