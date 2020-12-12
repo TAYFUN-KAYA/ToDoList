@@ -45,9 +45,9 @@ You can immediately create your to-do list afterwards.
 
 working planned saves time 
 
-![](https://github.com/TAYFUN-KAYA/ToDoList/blob/main/static/image/photo/example.png)
+![](https://github.com/TAYFUN-KAYA/ToDoList/blob/main/static/image/photo/neww.png)
 
 I wish you fruitful studies
 
-![](https://github.com/TAYFUN-KAYA/ToDoList/blob/main/static/image/photo/example%205.png)
+![](https://github.com/TAYFUN-KAYA/ToDoList/blob/main/static/image/photo/newpage.png)
 
