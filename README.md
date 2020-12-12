@@ -12,28 +12,28 @@
 # In short, you can prepare and use your special to-do list.
 
 
-Some basic Git commands are:
+django-crispy-forms install:
 ```
 pip install django-crispy-forms
 ```
 [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/install.html).
 
-Some basic Git commands are:
+jquery install or file:
 ```
 npm install jquery
 ```
 [jQuery](https://jquery.com/download/).
 
-#Used technology and frameworks
+#Used technology and frameworks:
 
-Python | 
-Django ORM | 
-jquery | 
-SQLİTE | 
-BOOTSTRAP | 
-crispy-forms | 
-TEMPLATE TAGS 
-
+> Python | 
+> Django ORM | 
+> jquery | 
+> SQLİTE | 
+> BOOTSTRAP | 
+> crispy-forms | 
+> TEMPLATE TAGS 
+...
 Python's syntax is pretty straightforward.You can create beautiful projects by using your algorithm.I wanted to make an enjoyable project using the django orm structure.
 
 # LOGİN
