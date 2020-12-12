@@ -2,12 +2,12 @@
 
 # In this project :
 
--> user can register
--> user can login
--> Can create your own to do list
--> You can add items to the to-do list
--> You can delete your items and complete
--> You can adjust it sorting to the situation you want
+- user can register
+- user can login
+- Can create your own to do list
+- You can add items to the to-do list
+- You can delete your items and complete
+- You can adjust it sorting to the situation you want
 
 # In short, you can prepare and use your special to-do list.
 
@@ -25,7 +25,14 @@ npm install jquery
 [jQuery](https://jquery.com/download/).
 
 #Used technology and frameworks
-Python | Django ORM | jquery | SQLİTE | BOOTSTRAP | crispy-forms | TEMPLATE TAGS 
+
+Python | 
+Django ORM | 
+jquery | 
+SQLİTE | 
+BOOTSTRAP | 
+crispy-forms | 
+TEMPLATE TAGS 
 
 Python's syntax is pretty straightforward.You can create beautiful projects by using your algorithm.I wanted to make an enjoyable project using the django orm structure.
 
